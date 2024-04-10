@@ -1,0 +1,44 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('./benalmadena-harbour-in-spain.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .countdown-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 80%; /* Ajusta el ancho del contenedor de la cuenta regresiva */
+    max-width: 1200px; /* Define un ancho máximo para el contenedor */
+    padding: 20px; /* Añade un espacio alrededor del contenido */
+  }
+  
+  h1 {
+    font-size: 4vw; /* Tamaño de fuente responsivo */
+  }
+  
+  #countdown {
+    font-size: 5vw; /* Tamaño de fuente responsivo */
+  }
+  
+  @media (max-width: 600px) {
+    .countdown-container {
+      width: 90%; /* Reduce el ancho del contenedor en pantallas pequeñas */
+    }
+  
+    h1 {
+      font-size: 6vw; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+    }
+  
+    #countdown {
+      font-size: 7vw; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+    }
+  }
