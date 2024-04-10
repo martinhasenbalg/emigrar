@@ -11,11 +11,11 @@ body, html {
   
   .countdown-container {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: black;
     width: 80%; /* Ajusta el ancho del contenedor de la cuenta regresiva */
     max-width: 1200px; /* Define un ancho máximo para el contenedor */
     padding: 20px; /* Añade un espacio alrededor del contenido */
