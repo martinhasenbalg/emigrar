@@ -15,7 +15,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black;
+    color: white;
     width: 80%; /* Ajusta el ancho del contenedor de la cuenta regresiva */
     max-width: 1200px; /* Define un ancho máximo para el contenedor */
     padding: 20px; /* Añade un espacio alrededor del contenido */
@@ -42,3 +42,19 @@ body, html {
       font-size: 7vw; /* Ajusta el tamaño de fuente en pantallas pequeñas */
     }
   }
+  /* Estilos para la versión de escritorio */
+@media (min-width: 768px) {
+  #countdown span {
+      display: inline;
+      margin-right: 10px; /* ajusta según sea necesario */
+  }
+}
+
+/* Estilos para la versión móvil */
+@media (max-width: 767px) {
+  #countdown span {
+      display: block; /* cambia a bloque para mantener los saltos de línea en la versión móvil */
+      margin-bottom: 10px; /* ajusta según sea necesario */
+  }
+}
+
